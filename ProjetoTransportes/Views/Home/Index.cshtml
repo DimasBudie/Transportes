@@ -1,0 +1,348 @@
+﻿@{
+    ViewBag.Title = "Index";
+    ViewBag.Description = "Home Page";
+}
+<head>
+    <script src="~/Content/js/plugins/jquery/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap datepicker -->
+    <script src="~/Content/js/plugins/datepicker/bootstrap-datepicker.min.js"></script>
+</head>
+<script>
+   
+</script>
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <div class="box box-default">
+            <div class="box-header">
+                <h3 class="box-title">Área de monitoramento de cargas em circulação</h3>
+            </div>
+            <div class="box-body">
+                <div class="table-responsive">                    
+                    <table class="table no-margin">
+                        <thead>
+                            <tr>
+                                <th>NF</th>
+                                <th>Motorista</th>
+                                <th>Origem</th>
+                                <th>Destino</th>
+                                <th>Previsão de Chegada</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#">NF00003456</a></td>
+                                <td>João Carreiro</td>
+                                <td>Curitiba-PR</td>
+                                <td>São paulo-SP</td>
+                                <td>06/08/2018-21:30</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF00001973</a></td>
+                                <td>Pedro Henrique</td>
+                                <td>Joinvile-SC</td>
+                                <td>São paulo-SP</td>
+                                <td>02/08/2018-21:30</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF00003098</a></td>
+                                <td>Tadeu do Asfalto</td>
+                                <td>Foz do Iguaçu-PR</td>
+                                <td>Vitória-ES</td>
+                                <td>06/08/2018-21:30</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF00002906</a></td>
+                                <td>Revonildo Rosa</td>
+                                <td>João Pessoa-PB</td>
+                                <td>Mallet-PR</td>
+                                <td>02/08/2018-16:30</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF00006829</a></td>
+                                <td>Roberto Cardoso</td>
+                                <td>Rio Btanco-AC</td>
+                                <td>Porto Alegre-RS</td>
+                                <td>23/08/2018-21:30</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF00009722</a></td>
+                                <td>Sergio Carreira</td>
+                                <td>Curitiba-PR</td>
+                                <td>Ponta Grossa-PR</td>
+                                <td>01/08/2018-15:30</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF00003444</a></td>
+                                <td>Ricardo da Luva</td>
+                                <td>Curitiba-PR</td>
+                                <td>São paulo-SP</td>
+                                <td>31/07/2018-1:30</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF00003457</a></td>
+                                <td>José pedro</td>
+                                <td>São paulo-SP</td>
+                                <td>Rio de Janeiro-RJ</td>
+                                <td>05/08/2018-20:00</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">NF000054332</a></td>
+                                <td>Tião da Carreta</td>
+                                <td>Porto Alegre-RS</td>
+                                <td>Fortaleza-CE</td>
+                                <td>20/08/2018-11:30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <h3 class="box-title">Relação de Cargas</h3>
+
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-remove"></i></button>
+                </div>
+            </div>
+            <div class="box-body">
+                <ul class="products-list product-list-in-box">
+                    <li class="item">
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">
+                                Grãos de Soja
+                                <span class="label label-warning pull-right">$3800</span>
+                            </a>
+                            <span class="product-description"> Origem: Mallet-PR </span>
+                            <span class="product-description"> Destino: Paranaguá-PR </span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">
+                                Tecido
+                                <span class="label label-warning pull-right">$1900</span>
+                            </a>
+                            <span class="product-description"> Origem: Navegantes-SC </span>
+                            <span class="product-description"> Destino: Curitiba-PR </span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">
+                                Fumo
+                                <span class="label label-warning pull-right">$4250</span>
+                            </a>
+                            <span class="product-description"> Origem: Guarapuava-PR </span>
+                            <span class="product-description"> Destino: Rio de Janeiro-RJ </span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">
+                                Madeira
+                                <span class="label label-warning pull-right">$12600</span>
+                            </a>
+                            <span class="product-description"> Origem: Rio Branco-AC </span>
+                            <span class="product-description"> Destino: Porto Alegre-RS </span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="product-info">
+                            <a href="javascript:void(0)" class="product-title">
+                                Peças Automotivas
+                                <span class="label label-warning pull-right">$7100</span>
+                            </a>
+                            <span class="product-description"> Origem: São Paulo-SP </span>
+                            <span class="product-description"> Destino: Chapecó-SC </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <h3 class="box-title">Enviar Nota Fiscal</h3>
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-remove"></i></button>
+                </div>
+            </div>
+            <div class="box-body">
+                <form role="form">
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Endereço de E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="e-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputFile">Nota Fiscal</label>
+                            <input type="file" id="exampleInputFile">
+
+                            <p class="help-block">Example block-level help text here.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <div class="box box-danger">
+            <div class="box-header">
+                <h3 class="box-title">Cadastro Rápido</h3>
+            </div>
+            <form role="form">
+                <div class="box-body">
+                    <div class="form-group">
+                        <label>Nome:</label>
+                        <input type="text" class="form-control" placeholder="Nome Completo">
+                    </div>
+                    <div class="form-group">
+                        <label>Celular:</label>
+
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <input type="text" class="form-control" data-inputmask="&quot;mask&quot;: &quot;(99) 9999-9999&quot;" data-mask="">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Possui Caminhão:</label>
+                        <select class="form-control">
+                            <option selected="selected">Caminhão próprio</option>
+                            <option>Caminhão de empresa</option>
+                            <option>Apenas Motorista</option>
+                            <option>Apenas Caminhão</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Cidade:</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Estado:</label>
+                        <select class="form-control">
+                            <option>Selecione...</option>
+                            <option>Acre</option>
+                            <option>Alagoas</option>
+                            <option>Amapá</option>
+                            <option>Tocantins</option>
+                            <option>Ceará</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio Grande do Sul</option>
+                            <option>Rio de Janeiro</option>
+                            <option>São Paulo</option>
+                            <option>Paraná</option>
+                            <option>Santa Catarina</option>
+                            <option>Minas Gerais</option>
+                            <option>Goias</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Data Vencimento Habilitação</label>
+                        <div class="input-group date">
+                            <div class="input-group-addon">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-right" id="datepicker">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-xs-4 col-md-3">
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <h3>83</h3>
+
+                <p>Motoristas Cadastrados</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">
+                Mais Informações <i class="fa fa-arrow-circle-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-xs-4 col-md-3">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <h3>62</h3>
+
+                <p>Cargas entregues este mês</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">
+                Mais Informações <i class="fa fa-arrow-circle-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-xs-4 col-md-3">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3>16</h3>
+
+                <p>Cargas Agendadas</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">
+                Mais Informações <i class="fa fa-arrow-circle-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-xs-4 col-md-3">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>8</h3>
+
+                <p>Liberações Pendentes</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">
+                Mais Informações <i class="fa fa-arrow-circle-right"></i>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<script src="~/Content/js/plugins/jquery/jquery-3.3.1.min.js"></script>
+<!-- bootstrap datepicker -->
+<script src="~/Content/js/plugins/datepicker/bootstrap-datepicker.min.js"></script>
+
+<script>
+    $('#datepicker').datepicker({
+        autoclose: true
+    })
+</script>
